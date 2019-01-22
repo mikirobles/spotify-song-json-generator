@@ -5,8 +5,8 @@ var generator = require("./lib/generator");
 var helpers = require("./lib/helpers");
 let playlists;
 const choices = {
-  createAdd: "Create/Add songs to playlist",
-  analyze: "Analyze existing playlist",
+  createAdd: "Create/Add songs to JSON",
+  analyze: "Analyze existing JSON",
   other: "Other (create a new one)"
 };
 
