@@ -1,4 +1,4 @@
-# Spotify Genre Json Generator
+# Spotify Song JSON Generator
 
 ## How to use
 

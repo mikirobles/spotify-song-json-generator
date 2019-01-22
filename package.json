@@ -1,5 +1,5 @@
 {
-  "name": "spotify-genre-json-generator",
+  "name": "spotify-song-json-generator",
   "version": "1.0.0",
   "description": "Generador de JSON con canciones de spotify",
   "main": "index.js",

@@ -15,7 +15,7 @@ async function askName() {
     {
       type: "input",
       name: "jsonName",
-      message: "Enter the name of the genre/json to output (e.g.: alt-rock)"
+      message: "Enter the name of the JSON to output (e.g.: alt-rock)"
     }
   ]);
   return jsonName;
@@ -39,7 +39,7 @@ async function addSongsToPlaylist() {
       {
         type: "list",
         name: "jsonName",
-        message: "Choose an existing genre/name or create a new one",
+        message: "Choose an existing JSON name or create a new one",
         choices: [...playlists, choices.other]
       }
     ]);
@@ -69,7 +69,7 @@ async function countLettersInPlaylist() {
     {
       type: "list",
       name: "jsonName",
-      message: "Choose one genre/name",
+      message: "Choose one of the existing JSON to analyze",
       choices: playlists
     }
   ]);
